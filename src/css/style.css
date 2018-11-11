@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  max-height: 450px; }
+
+.carousel-item img {
+  background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/miku11.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFF; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/miku12.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFF; }
+  #video-play a {
+    color: #FFF; }
+
+footer#main-footer {
+  background: #000;
+  color: #FFF; }
+
+#gallery img:hover {
+  cursor: pointer; }
+
+#page-header {
+  height: 200px;
+  background: url("../img/miku8.jpg");
+  background-position: 0 -380px;
+  background-attachment: fixed;
+  color: #FFF;
+  border-bottom: 1px #EEE solid;
+  padding-top: 50px; }
+
+#about img {
+  width: 400px;
+  height: 400px;
+  margin-top: -50px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #FFF;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }
+
+#staff img {
+  width: 230px;
+  height: 230px; }
